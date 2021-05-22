@@ -21,4 +21,7 @@
      **-User can get back to Calculator using GoBack button in Radix converter**  
  
  
- <img width="345" alt="image1" src="https://user-images.githubusercontent.com/70425988/119215221-dfcf8e80-bae9-11eb-82dd-63e84c7413a9.png">
+ <img width="345" alt="image1" src="https://user-images.githubusercontent.com/70425988/119215337-b5320580-baea-11eb-916f-40a86d6a496e.png">
+<img width="342" alt="image2" src="https://user-images.githubusercontent.com/70425988/119215341-b82cf600-baea-11eb-8b9c-0d18bcd0c4f4.png">
+<img width="343" alt="image3" src="https://user-images.githubusercontent.com/70425988/119215345-ba8f5000-baea-11eb-8a29-1702256795b1.png">
+<img width="227" alt="image4" src="https://user-images.githubusercontent.com/70425988/119215350-bd8a4080-baea-11eb-89c2-f30b60fddf5a.png">
