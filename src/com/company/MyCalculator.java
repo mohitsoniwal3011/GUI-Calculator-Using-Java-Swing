@@ -71,7 +71,7 @@ public class MyCalculator extends JFrame implements ActionListener {
         textField.setFont(new Font("Consolas",Font.BOLD,20));
         textField.setHorizontalAlignment(SwingConstants.RIGHT);
         textField.setEditable(false);
-        //textField.setBackground(Color.LIGHT_GRAY);
+
         panel1.add(textField);
         panel1.setPreferredSize(new Dimension(350,80));
         panel1.setBackground(Color.WHITE);
@@ -84,13 +84,11 @@ public class MyCalculator extends JFrame implements ActionListener {
 
         panel2.setLayout(new GridLayout(5,5,5,5));
 
-        //this.add(panel1,BorderLayout.SOUTH);
         for(int i=0;i<10;i++){
             numberButton[i]=new JButton(Integer.toString(i));
             numberButton[i].setFont(new Font("Consolas",Font.BOLD,20));
             numberButton[i].setBackground(Color.DARK_GRAY);
             numberButton[i].setFocusable(false);
-            //panel2.add(numberButton[i]);
         }
         funcButton[0]=new JButton("=");
         funcButton[1]=new JButton("+");
@@ -99,7 +97,6 @@ public class MyCalculator extends JFrame implements ActionListener {
         funcButton[4]=new JButton("/");
         funcButton[5]=new JButton(".");
 
-        //funcButton[3].setFont(new Font("Consolas",Font.BOLD,10));
         funcButton[8]=new JButton("(-)");
         funcButton[8].setBackground(Color.LIGHT_GRAY);
         funcButton[8].setFont(new Font("Consolas",Font.BOLD,20));
@@ -350,7 +347,6 @@ public class MyCalculator extends JFrame implements ActionListener {
                 num2=num2*num2;
                 textField.setText(s+num2+"");
                 num=Double.toString(num2);
-                //flag_num=false;
             }else {
                 num1=Double.parseDouble(textField.getText());
                 num1=num1*num1;
