@@ -20,7 +20,6 @@ public class RadixConverter extends JFrame implements ActionListener {
         this.setSize(new Dimension(300,300));
         this.setLayout(new BorderLayout());
 
-        //Border border =BorderFactory.createLineBorder(Color.green,5);
 
         textField.setPreferredSize(new Dimension(280,60));
         textField.setFont(new Font("Consolas",Font.BOLD,20));
@@ -37,7 +36,6 @@ public class RadixConverter extends JFrame implements ActionListener {
         panel1=new JPanel();
         panel1.setPreferredSize(new Dimension(190,200));
         panel1.setLayout(new GridLayout(4,1,5,5));
-        //panel1.setBackground(Color.LIGHT_GRAY);
 
         hex=new JButton("HEX");
         hex.setFont(new Font(null,Font.BOLD,15));
@@ -83,12 +81,10 @@ public class RadixConverter extends JFrame implements ActionListener {
         panel2.setPreferredSize(new Dimension(200,200));
         panel2.setLayout(new GridLayout(4,3,3,5));
 
-        //panel2.setBackground(Color.LIGHT_GRAY);
 
         for(int i=0;i<10;i++){
             numberButton[i]=new JButton(Integer.toString(i));
             numberButton[i].setFont(new Font("Consolas",Font.BOLD,20));
-            //numberButton[i].setBackground(Color.LIGHT_GRAY);
             numberButton[i].setFocusable(false);
             panel2.add(numberButton[i]);
         }
@@ -135,8 +131,7 @@ public class RadixConverter extends JFrame implements ActionListener {
             try {
                 number=Integer.parseInt(num);
             }
-            catch (Exception exc){
-                //textField.setText("Error!");
+            catch (Exception ignored){
             }
             num="";
             if(e.getSource() == hex){
@@ -151,7 +146,6 @@ public class RadixConverter extends JFrame implements ActionListener {
             if(e.getSource() == goBack){
                 try {
                     new MyCalculator();
-                    //new ScientificCalculator2();
                 } catch (Exception ex) {
                     System.out.println(ex);
                 }
@@ -160,10 +154,5 @@ public class RadixConverter extends JFrame implements ActionListener {
         }
     }
 }
-/*
-public class RadixConverter {
-    public static void main(String[] args) throws UnsupportedLookAndFeelException, ClassNotFoundException, InstantiationException, IllegalAccessException {
-        RadixConverter1 radixConverter1=new RadixConverter1();
-    }
-}*/
+
 
