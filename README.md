@@ -13,7 +13,7 @@
      **-It has a Negate[(-)] button which can negate a simple button ,sin cos ,tan ,log etc. or their argument** 
       <br/>  
 **Radix Conversion**        
-     **-It has a Different Window which for Radix Conversions which can convert a Number in Base 10 to**  
+     **-It has a Different Window for Radix Conversions which can convert a Number in Base 10 to**  
      **-A Binary Number**  
      **-A Hexadecimal Number**  
      **-A Octal Number**  
