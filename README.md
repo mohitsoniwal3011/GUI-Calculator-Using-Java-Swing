@@ -1,16 +1,16 @@
 # Simple Calculator 
-**Project Discription:-**  
+**Project Description:-**  
 **-This is a simple calculator which is created using Concepts of Java and Swing**   
 <br/>
 **Functionalities:-**   
      **It can Calculate:-**    
      **-Simple Addition ,Subtraction ,Multiplication and Division**  
-     **-sin , cos and tan of an angle given in Degrees**  
+     **-sin, cos and tan of an angle given in Degrees**  
      **-log and ln of a number**  
      **-any power of exponential e**  
      **-Square root of  a number**  
      **-Square of number**  
-     **-It has a Negate[(-)] button which can negate a simple button ,sin cos ,tan ,log etc. or their argument** 
+     **-It has a Negate [(-)] button which can negate a simple button, sin, cos, tan, log etc. or their argument** 
       <br/>  
 **Radix Conversion**        
      **-It has a Different Window for Radix Conversions which can convert a Number in Base 10 to**  
